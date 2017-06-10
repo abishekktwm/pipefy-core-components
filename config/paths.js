@@ -40,11 +40,10 @@ function getServedPath(appPackageJson) {
 
 // config after eject: we're in ./config/
 module.exports = {
-  dotenv: resolveApp('.env'),
-  appBuild: resolveApp('build'),
-  // appPublic: resolveApp('public'),
   // appHtml: resolveApp('src/_SandBox/index.html'),
-  // appIndexJs: resolveApp('src/index.js'),
+  dotenv: resolveApp('.env'),
+  libBuild: resolveApp('build'),
+  libIndexJs: resolveApp('src/index.js'),
   SandBoxApp: resolveApp('src/_SandBox'),
   SandBoxAppHtml: resolveApp('src/_SandBox/index.html'),
   SandBoxAppIndexJs: resolveApp('src/_SandBox/index.js'),

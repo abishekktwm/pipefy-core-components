@@ -35,7 +35,7 @@ const useYarn = fs.existsSync(paths.yarnLockFile);
 const isInteractive = process.stdout.isTTY;
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([paths.SandBoxAppHtml, paths.SandBoxAppIndexJs/*, paths.appIndexJs*/])) {
+if (!checkRequiredFiles([paths.SandBoxAppHtml, paths.SandBoxAppIndexJs])) {
   process.exit(1);
 }
 
