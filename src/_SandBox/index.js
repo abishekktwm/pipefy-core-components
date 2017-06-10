@@ -1,16 +1,16 @@
+// @flow
+
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import * as Components from '../index'
+import { Example } from '../index'
 
 class SandBox extends Component {
   render() {
     return (
       <div>
         <h1> Teste aqui: </h1>
-        <Components.Example>
-          Click here!
-        </Components.Example>
+        <Example>Click here!</Example>
       </div>
     )
   }
