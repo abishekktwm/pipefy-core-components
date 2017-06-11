@@ -2,6 +2,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import './Example.css'
+
 const Props = {
   onClick: PropTypes.func.isRequired,
   children: PropTypes.any,
@@ -10,7 +12,7 @@ const Props = {
 class Example extends Component  {
   render() {
     return (
-      <button onClick={this.props.onClick}>
+      <button className="Example" onClick={this.props.onClick}>
         2-Button: { this.props.children }
       </button>
     )
