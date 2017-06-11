@@ -1,20 +1,22 @@
 // @flow
-
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-type Props = {
-  onClick: () => void,
-  children: any
-};
+const Props = {
+  onClick: PropTypes.func.isRequired,
+  children: PropTypes.any,
+}
 
-export default class extends Component  {
-  props: Props;
-
+class Example extends Component  {
   render() {
     return (
       <button onClick={this.props.onClick}>
-        Button: { this.props.children }
+        3-Button: { this.props.children }
       </button>
     )
   }
 }
+
+Example.propTypes = Props
+
+export default Example
