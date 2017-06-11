@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maches the snapshot 1`] = `
+<button
+  onClick={[Function]}
+>
+  2-Button: 
+  Facebook
+</button>
+`;

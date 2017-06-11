@@ -11,7 +11,7 @@ class Example extends Component  {
   render() {
     return (
       <button onClick={this.props.onClick}>
-        3-Button: { this.props.children }
+        2-Button: { this.props.children }
       </button>
     )
   }

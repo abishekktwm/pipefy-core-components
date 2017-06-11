@@ -3,9 +3,9 @@ see:
 - https://www.jonathan-petitcolas.com/2015/05/15/howto-setup-webpack-on-es6-react-application-with-sass.html
 
 √ dev server
-build:
-  - es6 -> es5
-  - import de teste
-jest
+√ build:
+√   - es6 -> es5
+√   - import de teste
+√ jest
 √ lint
 css????
