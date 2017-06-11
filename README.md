@@ -8,4 +8,7 @@ see:
 √   - import de teste
 √ jest
 √ lint
-css????
+css
+  - local
+  - build
+  - sass?!
